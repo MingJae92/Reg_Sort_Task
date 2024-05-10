@@ -11,7 +11,7 @@ def format_serial_number(serial, l, el):
 
     # Loop through the serial number and group it into sections of length l
     for i in range(0, len(serial), l):
-        # Get an index of the serial number and plus 1
+        # Get a section of the serial number with length l
         section = serial[i:i + l]
 
         # Convert the section to uppercase
